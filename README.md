@@ -19,4 +19,16 @@ Each project includes:
 - Added protocol assertions
 - Verified read/write functionality using a reference model
 
-More projects will be added progressively.
+
+### 2. Mini SoC Design and Layered SystemVerilog Verification
+
+
+This project implements a simplified memory-mapped Mini SoC in SystemVerilog along with a structured layered testbench.
+
+The goal is to demonstrate:
+
+- Register-based SoC architecture
+- Inter-block communication
+- Constrained random verification
+- Layered testbench design (Generator → Driver → Monitor → Scoreboard)
+- Cycle-accurate reference model checking
